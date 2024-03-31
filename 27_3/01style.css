@@ -1,0 +1,45 @@
+.all{
+    font-family: Roboto Slab;
+    max-width: 560px;
+    margin: 0 auto;
+}
+h1{
+    color: rgb(19, 151, 151);
+}
+h2{
+    background-color: rgb(66, 189, 189);
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.ul{
+       /* mouse over link */
+   a:hover {
+    color: rgb(228, 228, 19);
+  }
+  
+  /* selected link */
+  a:active {
+    color: gray;
+  }
+    font-size: 12px;
+}
+.p{
+    text-align-last: justify;
+}
+.bac{
+    background-color: rgb(194, 186, 186);
+    width: 560px;
+    height: 430px;
+    text-align-last: center;
+    color: rgb(66, 68, 189);
+    padding: 10px;
+}
+a:visited, a:link{
+    text-decoration: none;
+}
+img{
+    width: 500px;   
+}
+.phai{
+    text-align-last: right;
+}

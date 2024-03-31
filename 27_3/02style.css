@@ -1,0 +1,47 @@
+.all{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Roboto Slab;
+}
+h1{
+    background-color: black;
+    color: aliceblue;
+    text-align-last: center;
+}
+h2{
+   text-align-last: center; 
+}
+.chuthich{
+    color: grey;
+    font-style: italic;
+    text-align-last: center;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+.gop{
+    border: 1px solid #00000011;
+    padding: 5px;
+    width: 1000px;
+}
+.khung{
+    border: 1px solid #00000011;
+    padding: 5px;
+    height: auto;
+    display: inline-block;
+    width: 1000px;
+    
+}
+.do{
+    color: red;
+    float: right;
+}
+.may{
+    float: right;
+    color: cadetblue;
+    font-size: 18px;
+}
+.cach {
+    margin-left: 10px;
+    
+}
