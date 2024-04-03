@@ -1,0 +1,39 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(36, 32, 32);
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+ul li{
+    float: left;
+    border-right: 1px solid#bbb;
+}
+ul li:last-child{
+    border-right: none;
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+}
+ul li a.active{
+    background-color: rgb(10, 124, 59);
+}
+ul li a:hover:not(.active){
+    background-color: rgb(18, 14, 14);
+}
+body{
+    margin: 0;
+}
+div{
+    margin-top: 60px;
+    height: 1500px;
+    padding: 15px;
+}
