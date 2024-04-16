@@ -1,0 +1,165 @@
+ul li{
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: rgb(255, 254, 254);
+    overflow: hidden;
+    font-family: Century Gothic;
+}
+ul li a.active{
+    float: inherit;
+}
+body{
+    margin: 0;
+    max-width: 2000px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+.div1{
+    max-width: 2000px;
+    background-image: url(Group\ 1.png);
+    padding: 40px;
+    background-repeat: no-repeat;
+}
+.menu{
+    background-color: black;
+    padding: 10px 20PX;
+    border-radius: 50px;
+    max-height: 40px;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.div1 h1{
+    font-family: Bell MT;
+    font-size: 100px; 
+}
+.vao{
+    padding-left: 100px; 
+}
+.div1 h4{
+    font-family: Embassy BT;
+    font-size: 70px;
+}
+.p{
+    font-size: 25px;
+    font-family: Berlin Sans FB;
+    padding-bottom: 30px;
+}
+.p1{
+    background-color: rgb(255, 104, 202);
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Bahnschrift;
+    max-width: 140px;
+    text-align: center;
+    padding: 15px 25px; 
+    text-decoration: none;
+}
+.p1:hover{
+    background-color: rgb(255, 213, 240);
+    color: black;
+}
+.p2{
+    font-size: 20px;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    color: black;
+    padding-left: 35px;
+    border-radius: 50px;
+    max-width: 140px;
+    text-align: center;
+    padding: 15px 25px; 
+    text-decoration: none;
+}
+.p2:hover{background-color: black; color: white;}
+.p3{
+    color: gray;
+    float: right;
+    padding-right: 100px;
+}
+
+.div2{
+    max-width: 2000px;
+    background-image: url(Group\ 2.png);
+    padding: 20px;
+    background-repeat: no-repeat;
+    max-height: 180px;
+}
+.div2 h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: SFU GillSans;
+}
+.div2 p{
+    font-family: DFVN Beauty Reflections;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.div3{
+    max-width: 2000px;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+}
+.div3 h1{
+font-family: Bernard MT Condensed;
+font-size: 40px;
+}
+.div3 p{
+    font-family: Bodoni Bk BT;
+    font-size: 20px;
+}
+.cach{
+    max-width: 2000px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.hong{
+    background-color: rgb(255, 182, 229);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.cua{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 0px 100px;
+}
+.nut{
+    background-color: rgb(163, 170, 104);
+    border-radius: 50px;
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+    font-family: Bahnschrift;
+    max-width: 100px;
+    text-align: center;
+    padding: 10px 15px; 
+    text-decoration: none;
+}
+.nut:hover{
+    background-color: rgb(117, 121, 83);
+    color: white;
+}
