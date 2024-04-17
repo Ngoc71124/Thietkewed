@@ -1,0 +1,119 @@
+.div1{
+    max-width: 2000px;
+    height: 400px;
+    padding: 40px;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    font-family: Corbel;
+    text-align: center;
+    padding-top: 10px;
+}
+ul li{float: left;}
+ul li a{
+    text-decoration: none;
+    padding: 14px 16px; padding-top: 70px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+ul li a.active{float: inherit;}
+ul li a:hover{
+    color: black;
+}
+.logo{
+    font-family: Beautiful Butterfly;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+    float: left;
+    padding-right: 20px;
+    text-align: center;
+}
+.logo:hover{
+    color: black;
+}
+body{
+    margin: 0;
+}
+.menu{
+    background-color: rgba(255, 255, 255, 0.4) ;
+    max-width: 2000px;
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+}
+.div1 h1{
+    font-family: Kunstler Script;
+    font-size: 100px;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0, 0.7);
+}
+.tim{
+    background-color: rgb(255, 255, 255, 0.9);
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: Calibri;
+    color: black;
+    float: right;
+}
+.tim:hover{
+    background-color: black;
+    color: white;
+}
+.div2{
+    max-width: 2000px;
+    padding: 20px;
+}
+.trai{
+    float: left;
+    justify-content: center;
+    max-width: 1500px;
+}
+.div2 h1{
+    text-align: center;
+    color: rgb(105, 105, 232);
+    font-family: DFVN Lagmaq;
+    font-size: 40px;
+}
+.cach{
+    max-width: 2000px;
+    padding: 20px;
+    display: flex;
+    float: left;
+    
+}
+.cua{
+    width: 200px;
+    height: 200px;
+    padding: 0px 20px;
+}
+.div2 .cach .cua a{
+    text-decoration: none;
+    color: black;
+}
+.div3{
+    height: 300px;
+    width: 200px;
+text-align: center;
+float: right;
+padding: 20px;
+}
+.div3 a{
+    text-decoration: none;
+    color: black;
+}
