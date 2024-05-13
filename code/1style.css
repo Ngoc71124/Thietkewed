@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-image: url('https://cdn.sforum.vn/sforum/wp-content/uploads/2022/05/hvh-scaled.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 10%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  overflow: auto;
+}
+ul{
+  background-size: 400px 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://i.pinimg.com/736x/bf/00/42/bf004298818be6f0948efaa93163e5be.jpg);
+}
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+  color: rgb(0, 0, 0);
+  font-family: Cursive;
+  overflow: auto;
+}
+
+ul li a:hover:not(.active){
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+}
+div{
+  margin-left: 11%;
+  padding-top: 0;
+  float: left
+
+}
+ul li a.active{
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+}
+li a img{
+  border-radius: 50%;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.h1{
+  width: 87.5%;
+  background-color: rgb(0, 0, 0, 0.8);
+  margin: 20px;
+  margin-left: 11%;
+  height: 70px;
+}
+h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: DFVN Lagmaq;
+}
+.div{
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 87.5%;
+  height: 100%;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#myDIV{
+  background: url('https://upload-os-bbs.hoyolab.com/upload/2023/04/23/69823607/432e161de9d09fc50291102b689b9098_267869682529211684.gif') no-repeat left/50px;
+ animation: mymove 5s infinite;
+ position: absolute;
+ left: 0;
+ width: 600px;
+ height: 90px;
+
+}
+@keyframes mymove{
+  50% {background: right/50px;}
+}
+.div h2{
+  color: white;
+  text-align: center;
+}
+.div a{
+  text-decoration: none;
+  color: white;
+}
